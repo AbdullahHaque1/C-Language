@@ -22,9 +22,9 @@ int main()
      else{
         int realP = -b/(2*a);
         int imag = sqrt(-d/2*a);
-        printf("roots are Imaginary and different :");
-        printf("x1 = %d + %d ",realP,imag);
-        printf("x1 = %d - %d ",realP,imag);
+        printf("roots are Imaginary and different :\n");
+        printf("x1 = %d + %di \n",realP,imag);
+        printf("x1 = %d - %di ",realP,imag);
 
     }
 
