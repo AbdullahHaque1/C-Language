@@ -19,11 +19,13 @@ int main()
         printf("roots are real and equal :");
         printf("x1 = %d,%d",x1,x1); 
     }
-    else{
-        x1 = (-b + sqrt(-d))/2*a;
-        x2 = (-b - sqrt(-d))/2*a;
+     else{
+        int realP = -b/(2*a);
+        int imag = sqrt(-d/2*a);
         printf("roots are Imaginary and different :");
-        printf("x1 = %di and x2 = %di ",x1,x2);
+        printf("x1 = %d + %d ",realP,imag);
+        printf("x1 = %d - %d ",realP,imag);
+
     }
 
     return 0;
