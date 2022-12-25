@@ -16,7 +16,7 @@ int main()
     int n;
     printf("Enter the range :");
     scanf("%d", &n);
-    printf("Fibonacci Series is :");
+    printf("Fibonacci Series is : ");
     for (int i = 0; i < n; i++)
     {
         printf("%d ",fibo(i));
