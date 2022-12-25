@@ -23,7 +23,7 @@ int main()
     printf("Enter the range :");
     scanf("%d",&n);
     SumofEvenandOdd(n,&even,&odd);
-    printf("Sum of even is :%d \nand Odd is :%d",even,odd);
+    printf("Sum of even is : %d \nand Odd is :%d",even,odd);
     
     return 0;
 }
