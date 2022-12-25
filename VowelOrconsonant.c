@@ -18,10 +18,10 @@ void VoOrCon(char ch)
    }
    if(b==1)
    {
-    printf("Entered Character is Vowel ");
+    printf("Entered Character is Vowel");
    }
    else
-   printf("Entered Character is Consonent ");
+   printf("Entered Character is Consonent");
 }
 int main()
 {
