@@ -13,11 +13,11 @@ int main()
     }
     if (ans == b)
     {
-        printf("Entered Number is Palindrom");
+        printf("Entered Number is Palindrom ");
     }
     else
     {
-        printf("Entered Number is Not Palindrom");
+        printf("Entered Number is Not Palindrom ");
     }
 
     return 0;
