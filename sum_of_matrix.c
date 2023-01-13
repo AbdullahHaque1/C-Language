@@ -14,7 +14,7 @@ int main()
             scanf("%d",&m1[i][j]);
         }
     }
-    printf("Enter the 2nd matrix :\n");
+    printf("Enter the 2nd matrix : \n");
     for(i = 0;i<m;i++)
     {
         for(j = 0;j<m;j++)
