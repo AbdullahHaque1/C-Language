@@ -10,7 +10,7 @@ int word_line(char op[])
         {
             w++;
         }
-        if( i == 10+a)
+        if( i == 20+a)
         {
             l++;
             a = a + 20;//After every 20 character it will go to new line.
