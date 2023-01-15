@@ -24,7 +24,7 @@ int word_line(char op[])
 int main()
 {
     char op[100];
-    printf("Enter the string :\n");
+    printf("Enter the string : \n");
     gets(op);
     int len = strlen(op);
     printf("Number of characters : %d", len);
