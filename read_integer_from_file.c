@@ -1,3 +1,5 @@
+//Write a program to read integers from a file.
+
 #include<stdio.h>
 
 int main()
@@ -8,5 +10,6 @@ int main()
     fp = fopen("integer.txt","r");//integert.txt is a file storing integers.
     fscanf(fp,"%d",&n);
     printf("The integer is : %d",n);
+    fclose(fp);
     return 0;
 }
