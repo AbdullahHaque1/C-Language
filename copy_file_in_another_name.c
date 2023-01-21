@@ -20,6 +20,7 @@ int main()
         }
         fprintf(fp2,"%c",ch);
     }
-    
+    fclose(fp1);
+    fclose(fp2);
     return 0;
 }
